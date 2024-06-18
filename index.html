@@ -19,7 +19,7 @@ layout: default
 <div class="container">
     <div class="content">
         <div class="row">
-
+<div class="col-md-8">
 {% for post in paginator.posts %}
 <article class="post">
   {% if post.img %}
@@ -34,8 +34,8 @@ layout: default
   </div>
 </article>
 {% endfor %}
-
-        </div>
-    </div>
+</div>
+</div>
+</div>
 </div>
 {% include pagination.html %}
