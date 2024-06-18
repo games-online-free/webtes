@@ -4,15 +4,17 @@ title:  "Kalender Pendidikan Tahun Pelajaran 2024/2025"
 date:   2024-03-17 12:00:00 -0000
 categories: news
 ---
+Kalender Pendidikan Tahun Pelajaran 2024/2025: Jadwal Kegiatan Pendidikan di DKI Jakarta
 Tahun ajaran baru di DKI Jakarta akan dimulai pada Senin, 8 Juli 2024 dan berakhir pada Jumat, 26 Juni 2025. Dalam rangka mempersiapkan kegiatan pendidikan yang efektif, Dinas Pendidikan Provinsi DKI Jakarta telah menerbitkan surat keputusan yang berisi 'Kalender Pendidikan Tahun Pelajaran 2024/2025'. Berikut adalah informasi lengkap tentang jadwal kegiatan pendidikan di DKI Jakarta untuk tahun ajaran ini.
-
-## Jadwal Pembelajaran
+Jadwal Pembelajaran
 Masa Pengenalan Lingkungan Sekolah (MPLS)
+{date: 8 - 10 Juli 2024}
 Peserta Didik kelas VII SMP dan SMPLB, kelas X SMA, SMALB, dan SMK: 8 - 10 Juli 2024
 Peserta Didik baru PAUD, TKLB, kelas 1 SD, dan SDLB: 8 - 19 Juli 2024
 Peserta Didik Pendidikan Kesetaraan Paket B setara SMP dan Paket C setara SMA: 1 - 3 Agustus 2024
 Peserta Didik baru Pendidikan Kesetaraan Paket A setara SD: 1 - 15 Agustus 2024
-## Kegiatan Pembelajaran
+Kegiatan Pembelajaran
+{date: 11 Juli 2024}
 Bagi kelas VII SMP dan SMPLB, kelas X SMA, SMALB, dan SMK: 11 Juli 2024
 Khusus PAUD, TKLB, kelas 1 SD, dan SDLB: 22 Juli 2024
 Bagi kelas II - VI SD dan SDLB, kelas VIII dan IX SMP dan SMPLB, kelas XI dan XII SMA dan SMK, kelas XIII khusus program SMK 4 tahun: 8 Juli 2024
