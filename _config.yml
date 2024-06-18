@@ -15,7 +15,11 @@ github_username:  nunit
 
 # Build settings
 markdown: kramdown
-
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+  
 # This is used in the Atom & RSS feeds and in the sitemap
 production_url: "https://nunit.org"
 rss_path: /rss.xml
