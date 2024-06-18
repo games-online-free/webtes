@@ -1,27 +1,13 @@
 ---
 layout: default
 ---
-<div class="jumbotron hidden-xs">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
-        <object data="/img/nunit_logo.svg" type="image/svg+xml" height="128" aria-label="nunit logotype">
-          <img src="/img/nunit_logo_128.png" alt="nunit logotype" />
-        </object>
-      </div>
-      <div class="col-sm-6 text-right">
-        <a class="btn btn-danger btn-lg" href="/download/" role="button">Download <i class="fa fa-download"></i></a>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div class="container">
     <div class="content">
         <div class="row">
 <div class="col-md-8 blog-posts index-post-wrap list-items">
 {% for post in paginator.posts %}
-<article class="post">
+<article class="post hentry item">
   {% if post.img %}
     <a class="post-thumbnail" style="background-image: url({{"/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
   {% else %}
