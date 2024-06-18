@@ -10,7 +10,7 @@ layout: default
 <article class="post hentry item">
   {% if post.img %}
 <a class="post-thumbnail"  href="{{post.url | prepend: site.baseurl}}">
-<span class='thumbnail' expr:data-src='{{ site.baseurl }}/img/{{ post.img }}'></a>
+<span class='thumbnail' style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})"></a>
   {% else %}
   {% endif %}
   <div class="post-content">
