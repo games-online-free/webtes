@@ -3,7 +3,7 @@ layout: default
 ---
 
 <section class='content-wrap flex-c'><div class='container row-x1 flex-sb'>
-<div class="main-wrap">
+<main class="main-wrap">
 <div class="blog-posts index-post-wrap list-items">
 {% for post in paginator.posts %}
 <article class="post hentry item-{{ forloop.index }}">
@@ -28,7 +28,7 @@ layout: default
 </article>
 
 {% endfor %}
-</div></div>
+</div></main>
 <div class="col-md-4"><!-- sidebar content -->{% include popular_articles.html %}</div>
 </div></section>
 {% include pagination.html %}
