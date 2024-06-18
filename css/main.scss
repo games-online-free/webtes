@@ -4,10 +4,20 @@
 
 // SASS Colors
 
-.list-items {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
+.list-items{display:grid;grid-template-columns:1fr;gap:1rem}
+.list-items .post{display:flex;gap:1.5rem;background:var(--widget-bg);padding:1rem;box-shadow:var(--shadow);border-radius:var(--radius)}
+.list-items .entry-thumbnail{width:17.5rem;height:13.125rem}
+.list-items .entry-header{flex:1;align-self:center;gap:0.5rem}
+.list-items .entry-title{font-size:1.25rem}
+.list-items .entry-meta{font-size:0.875rem;line-height:1.25rem}
+
+@media (max-width: 680px) {
+.list-items .post{flex-direction:column;gap:1rem}
+.list-items .entry-thumbnail{width:100%;height:13.75rem}
+.list-items .entry-header{flex:auto}
+}
+@media (max-width: 380px) {
+.list-items .entry-thumbnail{height:12.5rem}
 }
 
 $color-primary-0: #005B0B;	// Main Primary color */
