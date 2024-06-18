@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "CNN Live Stream"
-date:   2024-03-16 12:00:00 -0000
+title:  "Kalender Pendidikan Tahun Pelajaran 2024/2025"
+date:   2024-03-17 12:00:00 -0000
 categories: news
 ---
 Install the runners from [NuGet](https://www.nuget.org/packages/nunit.xamarin/) or by searching for the package nunit.xamarin.
