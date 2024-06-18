@@ -4,6 +4,12 @@
 
 // SASS Colors
 
+.list-items {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
 $color-primary-0: #005B0B;	// Main Primary color */
 $color-primary-1: #289336;
 $color-primary-2: #11771E;
