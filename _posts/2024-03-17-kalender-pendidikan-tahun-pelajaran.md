@@ -2,6 +2,7 @@
 layout: post
 title:  "Kalender Pendidikan Tahun Pelajaran 2024/2025"
 date:   2024-03-17 12:00:00 -0000
+img: KalenderPendidikan.jpg
 categories: news
 ---
 **Kalender Pendidikan Tahun Pelajaran 2024/2025: Jadwal Kegiatan Pendidikan di DKI Jakarta**
