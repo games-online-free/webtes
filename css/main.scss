@@ -2,6 +2,10 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+.list-items .post{display:flex;gap:1.5rem;background:var(--widget-bg);padding:1rem;box-shadow:var(--shadow);border-radius:var(--radius)}
+@media (max-width: 680px) {
+.list-items .post{flex-direction:column;gap:1rem}
+}
 // SASS Colors
 
 $color-primary-0: #005B0B;	// Main Primary color */
