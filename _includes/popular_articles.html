@@ -1,27 +1,10 @@
 <div class="widget popular-articles">
   <h2>Popular Articles</h2>
   <ul>
-    {% assign sorted_posts = site.posts | sort: 'views' | reverse %}
+    {% assign sorted_posts = site.posts | sort: 'news' | reverse %}
     {% for post in sorted_posts limit: site.popular_articles_count %}
       <li>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </li>
     {% endfor %}
   </ul>
-
-
-      <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      var popularArticlesList = document.getElementById('popular-articles-list');
-
-      // Mengambil semua artikel dan mengurutkan berdasarkan views secara descending
-      var sortedPosts = {{ site.posts | sort: 'views' | reverse | jsonify }};
-
-      sortedPosts.slice(0, 5).forEach(article => {
-        var li = document.createElement('li');
-        li.innerHTML = `<a href="{{ site.baseurl }}${article.url}">${article.title}</a>`;
-        popularArticlesList.appendChild(li);
-      });
-    });
-  </script>
-</div>
