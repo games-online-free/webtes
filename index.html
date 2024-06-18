@@ -9,7 +9,7 @@ layout: default
 {% for post in paginator.posts %}
 <article class="post hentry item">
   {% if post.img %}
-<a class="post-thumbnail"  href="{{post.url | prepend: site.baseurl}}">
+<a class="entry-thumbnail"  href="{{post.url | prepend: site.baseurl}}">
 <span class='thumbnail' style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})"></a>
   {% else %}
   {% endif %}
