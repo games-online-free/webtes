@@ -7,7 +7,7 @@ layout: default
         <div class="row">
 <div class="col-md-8 blog-posts index-post-wrap list-items">
 {% for post in paginator.posts %}
-<article class="post hentry item-{{ data.i }}">
+<article class="post hentry item-{{ forloop.index }}">
   {% if post.img %}
     <a class="entry-thumbnail" href="{{ post.url | prepend: site.baseurl }}">
       <span class='thumbnail pbt-lazy' style="background-image: url('{{ "/img/" | prepend: site.baseurl | append: post.img }}')"></span>
